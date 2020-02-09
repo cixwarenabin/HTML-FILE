@@ -10,7 +10,7 @@
                             <label for="name">Full Name:</label>   
                     </td>
                     <td>
-                            <input type="text" name="firstname" placeholder="enter your name" id="name">
+                            <input type="text" name="firstname" required placeholder="enter your name" id="name">
                     </td>
                 </tr>
                 <tr>
@@ -18,13 +18,13 @@
                             <label for="email">Email:</label>
                     </td>
                     <td>
-                            <input type="email" name="Email" placeholder="e.g. jdoe@gmail.com" id="email">
+                            <input type="email" name="Email" required placeholder="e.g. jdoe@gmail.com" id="email">
                     </td>
                 </tr>
                 <tr>
                     <td>
                             <label for="password">Password:</label></td>
-                    <td><input type="password" name="password" id="password"></td>
+                    <td><input type="password" required name="password" id="password"></td>
                 </tr>
                 <tr>
                     <td>Subject:</td>
@@ -42,7 +42,7 @@
                 <tr>
                     <td>I want to be:</td>
                     <td><select name="select one" id='i'>
-                                <option selected disabled hidden>select one</option>
+                                <option selected  required disabled hidden>select one</option>
                                 <option value="U.I. Designer">U.I. Designer</option>
                                 <option value="Frontend Developer">Frontend Developer</option>
                                 <option value="Backend Developer">Backend Developer</option>
@@ -55,7 +55,7 @@
                         <label>Description:</label>
                    </td>
                     <td>
-                        <textarea name="Description" placeholder="Enter some info.."></textarea>
+                        <textarea name="Description" required placeholder="Enter some info.."></textarea>
                     </td>
                 </tr>
                 <tr>
